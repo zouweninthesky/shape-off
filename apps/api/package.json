@@ -1,5 +1,6 @@
 {
-    "scripts": {
-        "types": "tsc --noemit"
-    }
+  "name": "@shape-off/api",
+  "scripts": {
+    "types": "tsc --noemit"
+  }
 }
