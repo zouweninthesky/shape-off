@@ -1,0 +1,53 @@
+@theme {
+  /* ══════════════════════════════════════════════
+     Base UI Palette (desaturated)
+     ══════════════════════════════════════════════ */
+
+  /* ── Surfaces ── */
+  --color-surface-0: rgb(250, 250, 251); /* page background */
+  --color-surface-1: rgb(244, 245, 247); /* card / panel */
+  --color-surface-2: rgb(233, 235, 239); /* hover / elevated */
+
+  /* ── Text hierarchy ── */
+  --color-text-muted: rgb(109, 114, 121); /* placeholders, captions */
+  --color-text-body: rgb(54, 59, 67); /* body copy */
+  --color-text-heading: rgb(7, 11, 19); /* headings, emphasis */
+  --color-text-inverse: rgb(245, 245, 246); /* text on dark/saturated bg */
+
+  /* ── Borders ── */
+  --color-border-light: rgb(220, 222, 225); /* subtle separators */
+  --color-border: rgb(193, 196, 201); /* standard border */
+  --color-border-strong: rgb(123, 129, 137); /* focus rings, active */
+
+  /* ── UI accent ── */
+  --color-accent: rgb(107, 137, 169); /* links, selected states */
+  --color-accent-hover: rgb(82, 117, 153);
+
+  /* ══════════════════════════════════════════════
+     Theme Colors (saturated — game categories)
+     ══════════════════════════════════════════════ */
+
+  --color-theme-red: rgb(236, 48, 90); /* Animals / Creatures */
+  --color-theme-orange: rgb(230, 105, 0); /* Food / Cooking */
+  --color-theme-yellow: rgb(216, 181, 1); /* Fantasy / Magic */
+  --color-theme-green: rgb(24, 154, 48); /* Nature / Plants */
+  --color-theme-teal: rgb(0, 150, 143); /* Vehicles / Machines */
+  --color-theme-blue: rgb(10, 114, 218); /* Science / Space */
+  --color-theme-purple: rgb(113, 68, 223); /* Art / Music */
+  --color-theme-pink: rgb(203, 60, 167); /* Characters / People */
+}
+
+@layer base {
+  * {
+    color: var(--color-text-body);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-text-heading);
+  }
+}

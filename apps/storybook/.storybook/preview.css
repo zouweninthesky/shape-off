@@ -1,2 +1,3 @@
 @import "tailwindcss";
+@source "../../game/src";
 @import "@shape-off/tailwind/theme.css";

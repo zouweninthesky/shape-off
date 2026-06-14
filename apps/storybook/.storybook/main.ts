@@ -1,6 +1,7 @@
 import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
 import type { StorybookConfig } from "@storybook/react-vite";
+import tailwindcss from "@tailwindcss/vite";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -23,6 +24,7 @@ const config: StorybookConfig = {
   viteFinal(config) {
     return {
       ...config,
+      plugins: [...(config.plugins ?? []), tailwindcss()],
       server: {
         ...config.server,
         fs: {
