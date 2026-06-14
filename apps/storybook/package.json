@@ -14,6 +14,8 @@
     "@storybook/addon-vitest": "catalog:",
     "@storybook/react-vite": "catalog:",
     "@tailwindcss/vite": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
     "@vitest/browser-playwright": "catalog:",
     "playwright": "catalog:",
     "prop-types": "catalog:",
@@ -21,6 +23,8 @@
     "vitest": "catalog:"
   },
   "dependencies": {
-    "@shape-off/tailwind": "workspace:*"
+    "@shape-off/tailwind": "workspace:*",
+    "react": "catalog:",
+    "react-dom": "catalog:"
   }
 }

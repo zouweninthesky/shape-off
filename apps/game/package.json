@@ -6,6 +6,8 @@
     "types": "tsc --noemit"
   },
   "devDependencies": {
+    "@storybook/react-vite": "catalog:",
+    "@types/node": "catalog:",
     "@types/react": "catalog:",
     "@types/react-router": "catalog:",
     "@types/react-router-dom": "catalog:",
