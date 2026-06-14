@@ -25,6 +25,7 @@
     "react-router-dom": "catalog:",
     "tailwind-merge": "catalog:",
     "tailwind-variants": "catalog:",
-    "tailwindcss": "catalog:"
+    "tailwindcss": "catalog:",
+    "isbot": "catalog:"
   }
 }
