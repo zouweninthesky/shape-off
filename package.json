@@ -13,6 +13,6 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
-    "turbo": "^2.9.16"
+    "turbo": "catalog:"
   }
 }

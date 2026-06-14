@@ -4,3 +4,14 @@ packages:
 
 catalog:
   vite: 8.0.16
+  "@tailwindcss/vite": 4.3.1
+  tailwindcss: 4.3.1
+  react: 19.2.7
+  react-dom: 19.2.7
+  react-router: 7.17.0
+  react-router-dom: 7.17.0
+  "@vitejs/plugin-react": 6.0.2
+  "@types/react": 19.2.17
+  "@types/react-router": 5.1.20
+  "@types/react-router-dom": 5.3.3
+  turbo: 2.9.16
