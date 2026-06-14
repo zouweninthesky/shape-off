@@ -6,13 +6,15 @@
     "types": "tsc --noemit"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "catalog:",
-    "vite": "catalog:",
     "@types/react": "catalog:",
     "@types/react-router": "catalog:",
-    "@types/react-router-dom": "catalog:"
+    "@types/react-router-dom": "catalog:",
+    "@vitejs/plugin-react": "catalog:",
+    "vite": "catalog:"
   },
   "dependencies": {
+    "@react-router/dev": "catalog:",
+    "@react-router/node": "catalog:",
     "@tailwindcss/vite": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
