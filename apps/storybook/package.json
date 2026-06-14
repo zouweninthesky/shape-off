@@ -1,0 +1,22 @@
+{
+  "name": "@shape-off/storybook",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "storybook dev -p 5000",
+    "build": "storybook build"
+  },
+  "devDependencies": {
+    "storybook": "catalog:",
+    "@storybook/react-vite": "catalog:",
+    "@chromatic-com/storybook": "catalog:",
+    "@storybook/addon-vitest": "catalog:",
+    "@storybook/addon-a11y": "catalog:",
+    "@storybook/addon-docs": "catalog:",
+    "@storybook/addon-mcp": "catalog:",
+    "prop-types": "catalog:",
+    "vitest": "catalog:",
+    "playwright": "catalog:",
+    "@vitest/browser-playwright": "catalog:"
+  }
+}
