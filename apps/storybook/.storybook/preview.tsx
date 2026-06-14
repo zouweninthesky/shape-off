@@ -13,6 +13,13 @@ const preview: Preview = {
       test: "todo",
     },
   },
+  decorators: [
+    (Story) => (
+      <div className="flex justify-center items-center grow h-full w-full">
+        <Story />
+      </div>
+    ),
+  ],
 };
 
 export default preview;

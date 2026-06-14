@@ -1,3 +1,9 @@
 @import "tailwindcss";
 @source "../../game/src";
 @import "@shape-off/tailwind/theme.css";
+
+#storybook-root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

@@ -50,4 +50,11 @@
   h6 {
     color: var(--color-text-heading);
   }
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
